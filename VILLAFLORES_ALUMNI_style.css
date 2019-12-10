@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    padding:0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bgi{
+    width:2px;
+    
+}
+
+.whitebox{
+    width: 1075px;
+    height: 800px;
+    top: 50%;
+    left: 70%;
+    background: white;
+    position:fixed;
+    transform: translate(-50%,-50%);
+    padding: 70px 30px;
+    margin: auto;
+    opacity: 0.85;
+    padding: 70px 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    position: absolute;
+    top: -90px;
+    left: 230px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.portal{
+    
+        width: 220px;
+        border-radius: 100%;
+        position: absolute;
+        top: 80px;
+        left: 200px;
+       
+}
+.location{
+        top: 150px;
+        left: 10px;
+        position: relative;
+}
+.whitebox input[type="text"],input[type="password"]{
+    border:none;
+    border-bottom: 1px solid gray;
+    background:transparent;
+    outline:none;
+    height: 40px;
+    width: 250px;
+    margin: 5px;
+    text-align: center;
+
+}
+.whitebox input[type="text"],input[type="password"]:hover{
+    border-bottom: 1px solid #dd1d4d;
+}
+
+.whitebox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    background:#be3e5a;
+    color:#fff;
+    font-size: 14px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.whitebox input[type="submit"]:hover{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 100px;
+    background:#e2607c;
+    color:#fff;
+    font-size: 14px;
+    
+}
+
+
+
+
+
